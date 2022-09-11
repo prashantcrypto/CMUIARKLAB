@@ -1,0 +1,159 @@
+/* Customize your main colors in :root variables */
+@font-face {
+  font-family: val;
+  src: url("Valorant\ Font.ttf");
+}
+:root {
+  --main-background-color: #ff9721;
+    --card-background-color: #fdc070;
+    --card-background-lighter-color: #ff9721;
+    --main-text-color: #ffffff;
+    --title-text-color: #ffffff;
+}
+.bg {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+  position: fixed;
+}
+body{
+  background-color: #28464900 !important;
+}
+html {
+  background: rgb(0, 0, 0);
+  height: 100vh;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 27%, rgba(33, 18, 73, 1) 79%) !important;
+}
+h2, p{
+  color: var(--main-text-color);
+}
+
+h3{
+font-weight: normal;
+}
+
+.MuiFab-extended {
+  height: auto;
+  padding-right: 0 !important;
+}
+
+.MuiFab-label {
+  font-weight: bold;
+}
+
+.g2 {
+  display: flex !important;
+  flex-direction: column !important;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.08476894175639005) 33%, rgba(58, 175, 176, 0.6169818269104517) 58%);
+
+  font-family: val;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+  border-radius: 15px;
+    width: 500px;
+    height: 500px;
+  }
+
+.r1 {
+  text-align: left;
+  font-size: 3rem;
+
+}
+
+.h0 {
+  margin-bottom: -1.3rem;
+  text-align: left;
+  font-size: 17px;
+}
+
+.MuiPaper-root {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-shadow: none !important;
+  background-color: rgba(119, 206, 163, 0) !important;
+}
+
+.gg {
+  margin-right: 10rem !important;
+}
+
+.gg {
+  width: 500px !important;
+  height: 500px !important;
+  border-radius: 0 !important;
+}
+
+.MuiButton-containedPrimary:not(.MuiButton-fullWidth) {
+  border-radius: 90px !important;
+  padding: 6px 16px;
+}
+
+.MuiButton-label {
+  font-size: 1.2em;
+}
+
+.line {
+  border-bottom: 3px solid white !important;
+}
+
+.Walletcontainer {
+  width: 100% !important;
+}
+
+.fnt {
+  margin-left: 1.5rem !important;
+  font-size: 1.5rem !important;
+  font-family: val !important;
+}
+
+.MuiLinearProgress-colorPrimary {
+  background-color: white !important;
+}
+
+.MuiPaper-root {
+  margin-top: 4rem !important;
+}
+
+.MuiLinearProgress-barColorPrimary {
+  background-color: rgba(187, 111, 212, 0.493) !important;
+}
+
+.rD {
+  margin-top: -1rem;
+  text-align: left !important;
+}
+
+.k {
+  text-align: left !important;
+  font-size: 2rem;
+}
+
+.price {
+  text-align: left !important;
+  display: flex;
+  align-items: center;
+
+}
+
+.pi {
+  width: 20px !important;
+  height: 20px !important;
+  margin-top: -0.2rem;
+  margin-left: 0.4rem;
+  margin-right: 0.2rem;
+}
+
+.wallet-adapter-button {
+  border-radius: 90px !important;
+  padding: 6px 16px !important;
+  background-color: #3f51b5 !important;
+  font-size: 0.875rem !important;
+  border: 0 !important;
+  display: inline-flex !important;
+}
